@@ -11,3 +11,7 @@ results/
 reports/
 *.csv
 *.xlsx
+
+# SpiderFoot API key files (contain secrets - never commit)
+api-keys.md
+SpiderFoot*.cfg
