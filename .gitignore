@@ -1,0 +1,13 @@
+# Per-tool virtual environments created by setup.sh
+venvs/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Scan outputs (keep results out of git)
+output/
+results/
+reports/
+*.csv
+*.xlsx

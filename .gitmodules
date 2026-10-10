@@ -1,0 +1,9 @@
+[submodule "modules/spiderfoot"]
+	path = modules/spiderfoot
+	url = https://github.com/smicallef/spiderfoot.git
+[submodule "modules/sherlock"]
+	path = modules/sherlock
+	url = https://github.com/sherlock-project/sherlock.git
+[submodule "modules/holehe"]
+	path = modules/holehe
+	url = https://github.com/megadose/holehe.git

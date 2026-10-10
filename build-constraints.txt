@@ -1,0 +1,5 @@
+# Build-time constraints for SpiderFoot v4.0 (used by setup.sh via `uv pip install -b`).
+# SpiderFoot pins pyyaml<6, i.e. PyYAML 5.4.1, which has no CPython 3.12 wheel and
+# fails to build from source with Cython 3 ("'build_ext' object has no attribute
+# 'cython_sources'"). See https://github.com/yaml/pyyaml/issues/724
+cython<3
